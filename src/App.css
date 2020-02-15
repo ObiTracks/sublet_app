@@ -44,6 +44,6 @@ input:hover {
   justify-content: center;
   align-content: flex-start;
   /* border: solid blue 3px; */
-  background: linear-gradient(to top left, #c9ffbf,#ff9797, #ff9472);
+  background: linear-gradient(to top left, #c9ffbf, #ff9472);
   padding: 10% 5% 0 5%;
 }
