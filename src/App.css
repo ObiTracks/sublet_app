@@ -10,13 +10,29 @@
   width: 100%;
   height: 80vh;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 .Intro .search{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
   width: 60%;
-  height: 30px;
+  height: 70px;
   border: solid black 2px;
+  border-radius: 50px;
   background: white;
+  padding: 15px 40px 15px 40px;
+}
+.search input{
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  border: none;
+  border-bottom: solid rgb(122, 122, 122) 2px;
+  padding-left: 20px;
+}
+input:hover {
+  cursor: text;
 }
 .Cards{
   display: flex;

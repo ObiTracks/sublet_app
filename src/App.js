@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <Nav />
       <div className="Intro">
-        <div className="Search"></div>
+        <div className="search">
+          <input></input>
+        </div>
       </div>
       <div className="Cards">
         
