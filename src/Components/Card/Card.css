@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: space-between;
     background: white;
-    box-shadow: rgb(133, 133, 133) 0px 5px 10px;
     border-radius: 10px;
     background: url("https://www.my-booker.com/lite-templates/template-one-version-one/images/gallery/3.jpg");
     background-size: cover;
@@ -19,7 +18,8 @@
 }
 .Card:hover{
     cursor: pointer;
-    transform: scale(1.13);
+    transform: scale(1.08);
+    box-shadow: rgb(133, 133, 133) 0px 5px 10px;
 }
 .Card a {
     width: 100%;
