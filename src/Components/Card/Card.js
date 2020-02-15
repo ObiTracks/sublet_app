@@ -5,10 +5,15 @@ function Card(prop) {
   return (
     <div className="Card">   
         <a className="link" href="/">
-            <p className="location">Location</p>
-            <p className="price">$700/month</p>
-            <p className="seller_name">Jenny Springs</p>
-            <p className="date">February 5th, 2020</p>
+            <div className="top-half">
+                <p className="location">Location</p>
+                <p className="price">$700/month</p>
+            </div>
+
+            <div className="bottom-half">
+                <p className="seller_name">Jenny Springs</p>
+                <p className="date">February 5th, 2020</p>
+            </div>
         </a>
 
         {/* <p className="location">{location}</p>
