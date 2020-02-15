@@ -1,13 +1,14 @@
 import React from 'react';
 import './Card.css';
-
+// import img from './'
 function Card(prop) {
   return (
-    <div className="Card">   
+    <div className="Card">
+        {/* <img src="https://www.my-booker.com/lite-templates/template-one-version-one/images/gallery/3.jpg"></img>   */}
         <a className="link" href="/">
             <div className="top-half">
-                <p className="location">Location</p>
-                <p className="price">$700/month</p>
+                <p className="location">Address</p>
+                <p className="price">$700</p>
             </div>
 
             <div className="bottom-half">
