@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Card from './Components/Card/Card';
 import Nav from './Components/Nav/Nav';
-import 
+import data from './data/kijiji.json';
 
 function App() {
 
