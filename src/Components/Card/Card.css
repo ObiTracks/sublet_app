@@ -1,0 +1,9 @@
+.Card{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(224, 224, 224, 0.411);
+    box-shadow: rgb(133, 133, 133) 0px 5px 10px;
+}
