@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -13,13 +16,17 @@
   width: 60%;
   height: 30px;
   border: solid black 2px;
+  background: white;
 }
 .Cards{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   min-height: 90vh;
-  justify-content: space-between;
-  align-content: center;
-  border: solid blue 3px;
+  justify-content: center;
+  align-content: flex-start;
+  /* border: solid blue 3px; */
+  background: rgb(255, 191, 175);
+  padding: 10% 5% 0 5%;
 }
