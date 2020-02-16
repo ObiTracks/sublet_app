@@ -8,23 +8,13 @@ import data from './data/data.json';
 const particleOptions = {
                   particles: {
                     number: {
-                      value: 150,
+                      value: 900,
                       density: {
                         enable: true,
-                        value_area: 800
+                        value_area: 1000
                       }
                     }
                   }
-                // polygon: {
-                //     enable: true,
-                //     type: 'inside',
-                //     move: {
-                //         radius: 10
-                //     },
-                //     draw: {
-                //       enable = True
-                //     }
-                //     url: 'path/to/svg.svg'
                 }
 
 function App() {
@@ -32,10 +22,10 @@ function App() {
     <div className="App">
 
         <Nav />
-
         <div className="Intro">
             
-            <Particles params={particleOptions} />
+            <Particles params={particleOptions} width="100%" height="100%"/>
+
 
             <div className="search">
               <input></input>

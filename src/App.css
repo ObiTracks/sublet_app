@@ -11,6 +11,11 @@
   height: 80vh;
   justify-content: center;
   align-items: center;
+  background: blue;
+  /* background: url('../src/skyview.jpg');
+  background-size: cover;
+  background-position: center; */
+
 }
 .Intro .search{
   box-sizing: border-box;
