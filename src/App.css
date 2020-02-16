@@ -52,4 +52,5 @@ input:hover {
   /* border: solid blue 3px; */
   background: linear-gradient(to top left, #c9ffbf, #ff9472);
   padding: 10% 5% 0 5%;
+  z-index: 100;
 }

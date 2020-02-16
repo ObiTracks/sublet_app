@@ -25,7 +25,7 @@ function App() {
     <div className="App">
 
         <Nav />
-        <Particles params={particleOptions} style={{backgroundColor: "lightblue", position: "absolute", width: '100%'}}/>
+        <Particles params={particleOptions} style={{backgroundColor: "lightblue", position: "absolute", width: '100%', height: "10px"}}/>
 
         <div className="Intro">
 
