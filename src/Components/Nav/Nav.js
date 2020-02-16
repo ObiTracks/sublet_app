@@ -1,10 +1,11 @@
 import React from 'react';
 import './Nav.css';
+import logo from '../../../src/logo.png';
 
 function Nav() {
   return (
     <div className="Nav">
-        <a><p>Subletter</p></a>
+        <a><img className="logo" src={logo}></img></a>
         <a><p>Home</p></a>
         <a><p>Sublets</p></a>
     </div>

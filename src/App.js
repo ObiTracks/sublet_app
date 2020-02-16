@@ -42,7 +42,7 @@ function App() {
         </p>
         <div className="Cards">
             {data.kijiji.map(item => {
-              return <Card link={item.URL} price={item.price} location={item.Location}/>
+              return <Card full_link={item.URL} price={item.price} location={item.Location}/>
             })}
         </div>
         

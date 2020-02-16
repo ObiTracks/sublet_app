@@ -4,7 +4,7 @@ import './Card.css';
 function Card(props) {
   return (
     <div className="Card">
-        <a className="link" href="/{props.link}">
+        <a className="link" href="{props.full_link}">
             <div className="top-half">
                 <p className="price">{props.price}</p>
                 <p className="location">{props.location}</p>
