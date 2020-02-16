@@ -8,11 +8,14 @@ import data from './data/data.json';
 const particleOptions = {
                   particles: {
                     number: {
-                      value: 900,
+                      value: 20,
                       density: {
                         enable: true,
-                        value_area: 1000
+                        value_area: 60
                       }
+                    },
+                    size: {
+                      value: 3
                     }
                   }
                 }
@@ -22,10 +25,9 @@ function App() {
     <div className="App">
 
         <Nav />
-        <div className="Intro">
-            
-            <Particles params={particleOptions} width="100%" height="100%"/>
+        <Particles params={particleOptions} style={{backgroundColor: "lightblue", position: "absolute", width: '100%'}}/>
 
+        <div className="Intro">
 
             <div className="search">
               <input></input>

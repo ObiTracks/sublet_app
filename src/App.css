@@ -27,6 +27,7 @@
   box-shadow: grey 0px 5px 10px;
   border-radius: 50px;
   background: white;
+  z-index: 100;
   padding: 15px 40px 15px 40px;
 }
 .search input{
