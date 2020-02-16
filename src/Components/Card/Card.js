@@ -6,8 +6,8 @@ function Card(props) {
     <div className="Card">
         <a className="link" href="{props.link}">
             <div className="top-half">
-                <p className="location">{props.price}</p>
-                <p className="price">$700</p>
+                <p className="price">{props.price}</p>
+                <p className="location">{props.location}</p>
             </div>
 
             <div className="bottom-half">
