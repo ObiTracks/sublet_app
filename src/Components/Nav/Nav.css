@@ -6,8 +6,9 @@
     justify-content: space-between;
     align-content: center;
     padding: 0 10% 0 10%;
+    background: black;
     /* border: solid black 2px; */
-    background: linear-gradient(to right, #f2709c, #ff9472);
+    /* background: linear-gradient(to right, #f2709c, #ff9472); */
 }
 .Nav a{
     color: white;
@@ -17,6 +18,6 @@
     transition: all ease-in-out 0.2s;
 }
 .Nav a:hover{
-    color: rgb(78, 0, 0);
+    color: rgb(130, 0, 252);
     cursor: pointer;
 }

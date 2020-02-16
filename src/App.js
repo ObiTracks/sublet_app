@@ -6,29 +6,29 @@ import Nav from './Components/Nav/Nav';
 import data from './data/data.json';
 
 const particleOptions = {
-                  particles: {
-                    number: {
-                      value: 20,
-                      density: {
-                        enable: true,
-                        value_area: 60
-                      }
-                    },
-                    size: {
-                      value: 3
-                    }
-                  }
-                }
+  particles: {
+    number: {
+      value: 10,
+      density: {
+        enable: true,
+        value_area: 60
+      }
+    },
+    size: {
+      value: 8
+    }
+  }
+}
 
 function App() {
   return (
     <div className="App">
 
         <Nav />
-        <Particles params={particleOptions} style={{backgroundColor: "lightblue", position: "absolute", width: '100%', height: "10px"}}/>
+
+        <Particles params={particleOptions} style={{backgroundColor: "navy", position: "absolute", width: '100%', height: "10px"}}/>
 
         <div className="Intro">
-
             <div className="search">
               <input></input>
             </div>
