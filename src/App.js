@@ -50,6 +50,7 @@ function App() {
             })}
         </div>
         
+        <div className="footer">Made with Love</div>
     </div>
   );
 }
